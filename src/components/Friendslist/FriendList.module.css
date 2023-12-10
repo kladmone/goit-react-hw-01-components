@@ -1,0 +1,34 @@
+.friendList{
+    margin-top: 35px;
+}
+.status {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.online {
+ background-color: green;
+}
+
+.offline {
+ background-color: red;
+}
+
+.item{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+.name {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+   margin-left: auto;
+}
