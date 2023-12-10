@@ -25,10 +25,10 @@ position: absolute;
         font-weight: bold;
         font-size: 13px;
 }
-tr:nth-child(even) {
+.tableTr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-tr:nth-child(odd) {
+.tableTr:nth-child(odd) {
     background-color: #ffffff;
 }
